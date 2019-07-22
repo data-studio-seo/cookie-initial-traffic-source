@@ -1,18 +1,4 @@
 <script>
-/**
-* Original script is created by Lunametrics 
-* https://www.lunametrics.com/labs/recipes/utmz-cookie-replicator-for-gtm/
-* Modified by Analytics Mania https://www.analyticsmania.com/
-*
-* Data is stored in the __initialTrafficSource cookie in the following format; brackets
-* indicate optional data and are aexcluded from the stored string:
-*
-* utmcsr=SOURCE|utmcmd=MEDIUM[|utmccn=CAMPAIGN][|utmcct=CONTENT]
-* [|utmctr=TERM/KEYWORD]
-*
-* e.g.:
-* utmcsr=example.com|utmcmd=affl-link|utmccn=foo|utmcct=bar|utmctr=biz
-*/
 (function(document) {
 
   var referrer = document.referrer;
