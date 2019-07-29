@@ -99,8 +99,8 @@
 
   }
 
-  if (!getCookie_('initialTrafficSource')) {
-    writeCookie_('initialTrafficSource', newCookieVals.join('|'), cookieExpiration, '/', thisDomain);
+  if (!getCookie_('origineTraffico')) {
+    writeCookie_('origineTraffico', newCookieVals.join('|'), cookieExpiration, '/', thisDomain);
   }
 
   writeCookie_('__utmzzses', 1, null, '/', thisDomain);
